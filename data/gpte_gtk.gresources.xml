@@ -18,6 +18,55 @@
 -->
 <gresources>
 	<gresource prefix="/arpa/sp1rit/gpte/gtk/">
+		<file>networks/avv_aachen.svg</file>
+		<file>networks/avv_augsburg.svg</file>
+		<file>networks/bart.svg</file>
+		<file>networks/bayern.svg</file>
+		<file>networks/bsvag.svg</file>
+		<file>networks/bvg.svg</file>
+		<file>networks/cmta.svg</file>
+		<file>networks/db.svg</file>
+		<file>networks/ding.svg</file>
+		<file>networks/dsb.svg</file>
+		<file>networks/france_ne.svg</file>
+		<file>networks/france_nw.svg</file>
+		<file>networks/france_se.svg</file>
+		<file>networks/france_sw.svg</file>
+		<file>networks/gvh.svg</file>
+		<file>networks/invg.svg</file>
+		<file>networks/italy.svg</file>
+		<file>networks/kvv.svg</file>
+		<file>networks/mvg.svg</file>
+		<file>networks/mvv.svg</file>
+		<file>networks/nasa.svg</file>
+		<file>networks/negentwee.svg</file>
+		<file>networks/nvbw.svg</file>
+		<file>networks/nvv.svg</file>
+		<file>networks/oebb.svg</file>
+		<file alias="networks/linz.svg">networks/ooevv.svg</file>
 		<file>networks/placeholder.svg</file>
+		<file>networks/quebec.svg</file>
+		<file>networks/sh.svg</file>
+		<file>networks/spain.svg</file>
+		<file>networks/stv.svg</file>
+		<file>networks/sydney.svg</file>
+		<file>networks/vbb.svg</file>
+		<file>networks/vbl.svg</file>
+		<file>networks/vbn.svg</file>
+		<file>networks/vgn.svg</file>
+		<file>networks/vgs.svg</file>
+		<file>networks/vmobil.svg</file>
+		<file>networks/vmv.svg</file>
+		<file>networks/vor.svg</file>
+		<file>networks/vrn.svg</file>
+		<file>networks/vrr.svg</file>
+		<file>networks/vrs.svg</file>
+		<file>networks/vvm.svg</file>
+		<file>networks/vvo.svg</file>
+		<file>networks/vvs.svg</file>
+		<file>networks/vvt.svg</file>
+		<file>networks/vvv.svg</file>
+		<file>networks/wien.svg</file>
+		<file>networks/zvv.svg</file>
 	</gresource>
 </gresources>
