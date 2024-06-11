@@ -1,0 +1,8 @@
+/usr/share/java/jsr-305.jar
+/usr/share/java/xpp3.jar
+/usr/share/java/guava/guava.jar
+/usr/share/java/json-java/json.jar
+/usr/share/java/slf4j/api.jar
+../okhttp-3.12.13.jar
+../okio-1.14.0.jar
+../logging-interceptor-3.12.13.jar

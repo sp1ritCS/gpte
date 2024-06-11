@@ -1,0 +1,74 @@
+# gpte - GObject bindings for public-transport-enabler
+# Copyright (C) 2024  Florian "sp1rit" <sp1rit@disroot.org>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+[library]
+name = "Gpte"
+version = "@version@"
+description = "Unleash public transport data - GObject bindings for public-transport-enabler"
+authors = "Florian \"sp1rit\""
+logo_url = "gpte.svg"
+license = "GPL-3.0"
+browse_url = "https://codeberg.org/sp1rit/gpte"
+repository_url = "https://codeberg.org/sp1rit/gpte"
+devhelp = true
+search_index = true
+
+dependencies = [
+	"GLib-2.0",
+	"GObject-2.0",
+	"Gio-2.0"
+]
+	[dependencies."GLib-2.0"]
+	name = "GLib"
+	description = "The base utility library"
+	docs_url = "https://developer.gnome.org/glib/stable"
+
+	[dependencies."GObject-2.0"]
+	name = "GObject"
+	description = "The base type system library"
+	docs_url = "https://developer.gnome.org/gobject/stable"
+
+	[dependencies."Gio-2.0"]
+	name = "Gio"
+	description = "The GLib input/output library"
+	docs_url = "https://developer.gnome.org/gio/stable"
+
+related = [
+	"pte"
+]
+	[related.pte]
+	name = "public-transport-enabler"
+	description = "Java library allowing you to get data from public transport providers"
+	docs_url = "https://sp1rit.codeberg.page/gpte/pte/"
+
+[theme]
+name = "basic"
+show_index_summary = true
+show_class_hierarchy = true
+
+[source-location]
+base_url = "https://codeberg.org/sp1rit/gpte/src/branch/master/src/"
+file_format = "{filename}#L{line}"
+
+[extra]
+urlmap_file = "../urlmap.js"
+content_files = [
+	"debugging.md",
+	"threading.md"
+]
+content_images = [
+	"../gpte.svg",
+]
